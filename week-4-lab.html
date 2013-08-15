@@ -1,0 +1,33 @@
+<!-- Stephen McCormick
+	Week 4 Lab  -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> User Data - Week 4 Lab </title>
+		<!-- this calls in the CSS for the page -->
+		<link rel="stylesheet" type="text/css" href="week-4-lab.css" />
+	</head>
+	
+
+	
+	<body>
+
+		<form name="mainform" id="mainform" action="">
+			<div id="content">
+				<fieldset>
+					<legend>Personal information:</legend>		
+					<label for="name">Name:</label> <input id="fullname" name="name" type="text" size="30" placeholder="Full name" /> <span class="error" id="err_name"></span> <br /><br />
+					<label for="email">E-mail:</label> <input id="email" name="email" type="text" size="30" placeholder="sample@email.com"  /> <span class="error" id="err_email"></span> <br /><br />
+					
+					<input type="button" id="showResults" value="Show Results" />
+					
+				</fieldset>
+			</div>
+		</form>
+		
+		
+		<!-- this calls in the JavaScript for the page -->
+		<script type="text/javascript" src="week-4-lab.js"></script>
+	</body>
+</html>
